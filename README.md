@@ -27,6 +27,7 @@ The cryptographic logic follows the original DES algorithm:
 - Encryption: Adds PKCS#7 padding to make ensure 8-byte blocks. Uses 16 Feistel rounds, each applying S-box substitution, permutation, and XOR operations
 - Decryption: Reverses the subkey order to decrypt, then removes padding
 - Key generator: Produces 16 subkeys fromt he main 64-bit key using PC-1, PC-2, and rotation tables. The algorithm structure guarantees a one-to-one mapping between plaintext and ciphertext, reversible only with the correct key.
+
 Data flow summary:
 - The user enters the file paths, mode, and key
 - Input bytes are read from disk
