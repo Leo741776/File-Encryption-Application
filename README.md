@@ -6,7 +6,7 @@ This is a Java program that encrypts and decrypts text or binary files using the
 - SQLite for Java: https://github.com/xerial/sqlite-jdbc/releases
 
 ## How to Run
-- Import necessary libraries
+- Import JavaFX and SQLite for Java
 - Select mode: Encrypt or Decrypt
 - Enter the path of the file you'd like to encrypt or the encrypted file you'd like to decrypt (include .txt for text files and .bin for binary files)
 - Click "Generate Random Key" or provide your own 16 character hex key
