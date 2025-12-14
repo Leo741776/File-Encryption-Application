@@ -36,5 +36,9 @@ Data flow summary:
 - The processed bytes are written to the output file
 - A status message confirms completion or error
 
+## Screenshots
+<img width="652" height="432" alt="Image" src="https://github.com/user-attachments/assets/9ecc2e0c-eb55-4479-bd8c-883e5c51dbc0" />
+<img width="652" height="432" alt="Image" src="https://github.com/user-attachments/assets/ed68f3a9-38bd-40f8-9990-027c6f816f01" />
+
 
 
